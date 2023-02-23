@@ -24,7 +24,7 @@ import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+ "kiwi")
 
 # just writes the data to the screen
-fruitvice_normalized = pandas.json_normalize(fruityvice_response.json())
+fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # take the json version of the response and normalize it
 
 # output it the new screen as a table
